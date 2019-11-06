@@ -2,23 +2,22 @@
 using namespace std; 
 int main()
 { 
-    int a1, b1, a2, b2, c1, c2, det, x, y; 
-    cout<<" reshenie sistem uravnenii vida a1x+b1y=c1 и a2x+b2y=c2:"<<endl; 
-    cout<<" vvedite a1: "; 
+    int a1, b1, a2, b2, c1, c2, d, x, y;  
+    cout<<"Enter a1: \n"; 
     cin>>a1; 
-    cout<<"\n vvedite b1: "; 
+    cout<<"Enter b1: \n"; 
     cin>>b1; 
-    cout<<"\n vvedite c1: "; 
+    cout<<"Enter c1: \n"; 
     cin>>c1; 
-    cout<<"\n vvedite a2: "; 
+    cout<<"Enter a2: \n"; 
     cin>>a2; 
-    cout<<"\n vvedite b2: "; 
+    cout<<"Enter b2: \n"; 
     cin>>b2; 
-    cout<<"\n vvedite c2: "; 
+    cout<<"Enter c2: \n"; 
     cin>>c2; 
-    det=a1*b2-a2*b1; 
-    x=(c1*b2-b1*c2)/det; 
-    y=(c2*a1-c1*a2)/det; 
-    cout<< "\n x = "<<x; 
-    cout<< "\n y = "<<y; 
+    d=a1*b2-a2*b1; 
+    x=(c1*b2-b1*c2)/d; 
+    y=(c2*a1-c1*a2)/d; 
+    cout<< "x = "<<x<<"\n"; 
+    cout<< "y = "<<y; 
 } 
